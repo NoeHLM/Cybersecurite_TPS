@@ -1,4 +1,4 @@
-public class Main {
+public class Vigenere {
     public static void main(String[] args) {
         System.out.println("Chiffrage du mot clementleboss");
         System.out.println("---------------------------------------");
