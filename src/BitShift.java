@@ -6,7 +6,7 @@ public class BitShift {
     public static void Bitshift(String motAChiffrer) {
         //on boucle motAchiffrer pour afficher chaque bit
         for (int i = 0; i < motAChiffrer.length(); i++) {
-            //la lettre
+            //on recupere la lettre du mot à chiffrer en fonction de l'index
             char charMotAChiffrer = motAChiffrer.charAt(i);
 
             //l equivalent ascii de la lettre
@@ -24,6 +24,7 @@ public class BitShift {
             System.out.println("Avant rotation : " + stringDuBitSansRotation);
             System.out.println("Après rotation : " + stringDuBitAvecRotation);
 
+            //on convertit l'entier ayant subit la rotation en caractère puis on l'affiche
             char charApresRotation = (char) rotationDroite;
             System.out.println("Rotation : " + charApresRotation);
             System.out.println("---------------------------------------");
